@@ -82,7 +82,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.020877b482e13676a6d6032e5cae103f.css">
+  <link rel="stylesheet" href="/css/academic.min.2bf4fac1c6d11ebe3fe7a88ea0903f01.css">
 
   
 
@@ -105,9 +105,6 @@
     
   
   <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="twitter:site" content="@eluhper">
-  <meta property="twitter:creator" content="@eluhper">
   
   <meta property="og:site_name" content="Elizabeth Luh">
   <meta property="og:url" content="/post/jupyter/">
@@ -244,8 +241,6 @@
         
         
         
-          
-        
 
         
         
@@ -255,7 +250,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/files/CV.pdf"><span>CV</span></a>
+          <a class="nav-link " href="/cv/"><span>CV</span></a>
         </li>
 
         
@@ -474,7 +469,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
   <div style="position: relative">
-    <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -484,10 +479,10 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> IPython.core.display <span style="color:#f92672">import</span> Image
+      <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> IPython.core.display <span style="color:#f92672">import</span> Image
 Image(<span style="color:#e6db74">&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;</span>)
 </code></pre></div><p><img src="./academic_0_0.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Welcome to Academic!&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">print(<span style="color:#e6db74">&#34;Welcome to Academic!&#34;</span>)
 </code></pre></div><pre><code>Welcome to Academic!
 </code></pre>
 <h2 id="install-python-and-jupyter">Install Python and Jupyter</h2>
@@ -495,14 +490,14 @@ Image(<span style="color:#e6db74">&#39;https://www.python.org/static/community_l
 <p>Otherwise, for advanced users, install Jupyter notebook with <code>pip3 install jupyter</code>.</p>
 <h2 id="create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post">Create a new blog post <a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post">as usual</a></h2>
 <p>Run the following commands in your Terminal, substituting <code>&lt;MY_WEBSITE_FOLDER&gt;</code> and <code>my-post</code> with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd &lt;MY_WEBSITE_FOLDER&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd &lt;MY_WEBSITE_FOLDER&gt;
 hugo new  --kind post post/my-post
 cd &lt;MY_WEBSITE_FOLDER&gt;/content/post/my-post/
 </code></pre></div><h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</h2>
 <p>Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (<em>New &gt; Python Notebook</em>) or upload a notebook.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jupyter notebook
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jupyter notebook
 </code></pre></div><h2 id="convert-notebook-to-markdown">Convert notebook to Markdown</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir<span style="color:#f92672">=</span>.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir<span style="color:#f92672">=</span>.
 
 <span style="color:#75715e"># Copy the contents of Untitled.md and append it to index.md:</span>
 cat Untitled.md | tee -a index.md
@@ -555,7 +550,7 @@ rm Untitled.md
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a href="/">Elizabeth Luh</a></h5>
       
-      <p class="card-text" itemprop="description">I am a 5th year Ph.D. canddiate in Economics at the University of Houston. I am primarily interested in Applied Microeconomics with a focus on public and crime economics. My current research is focused on identifying and measuring racial bias in law enforcement.</p>
+      <p class="card-text" itemprop="description">I am a researcher at the Criminal Justice Administrative Records System (CJARS) at the University of Michigan. I received my Ph.D. in Economics from the University of Houston in 2020. I am primarily interested in Applied Microeconomics with a focus on labor economics, public economics, and economics of crime. My current research is focused on the impact of financial sanctions from the criminal justice system and racial bias in law enforcement.</p>
       <ul class="network-icon" aria-hidden="true">
         
           
@@ -572,23 +567,6 @@ rm Untitled.md
           <li>
             <a itemprop="sameAs" href="/#contact" >
               <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/eluhper" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
             </a>
           </li>
         
@@ -687,7 +665,7 @@ rm Untitled.md
     
     
     
-    <script src="/js/academic.min.f5288a1117f08cbdbec0444837081402.js"></script>
+    <script src="/js/academic.min.4bf0891a6fd21a70e2f81e830e330ad7.js"></script>
 
     
 
